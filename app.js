@@ -4,7 +4,7 @@ const app = express();
 const https = require('https'); // Sirve para hacer peticiones a otras paginas, es lo mismo que la libreria request
 const client = require("@mailchimp/mailchimp_marketing"); // Libreria para hacer peticiones a la API de Mailchimp
 
-client.setConfig({apiKey: "26f7e3dceb1e33a1140a1e875ddbe774-us21",  server: "us21",}); // Configuración de la API de Mailchimp
+client.setConfig({apiKey: "26f7e3dceb1e33a1140a1e875ddbe774-us21",  server: "us21"}); // Configuración de la API de Mailchimp
 
 const bodyParser = require('body-parser');
 // Configuramos el servidor
